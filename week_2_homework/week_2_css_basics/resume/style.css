@@ -1,0 +1,141 @@
+body {
+  background-color: #444444
+}
+
+.container {
+  width: 600px;
+  padding:20px;
+  margin: 40px auto 0 auto ;
+  border:rgba(204, 204, 204, .4) 4px solid;  
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h2 {
+  color: white;
+  font-family: helvetica;
+  margin-left: 30px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  color: rgba(204, 204, 204, .4);
+  font-family: sans-serif;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: #FFF;
+  font-family: helvetica;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:active {
+  display: inline-block;
+  color: #6bcd95;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  display: inline-block;
+  color: #6bcd95;
+  text-decoration: underline;
+}  
+
+nav a:visited {
+  display: inline-block;
+  color: #6bcd95;
+  text-decoration: underline;
+}
+
+nav a span.pipe {
+  display:inline-block;
+  color: rgba(204, 204, 204, .4);
+  padding-left: 5px;
+  font-weight: 300;
+
+}
+
+p {
+  font-family: georgia;
+  font-size: 14px;
+  color: #FFF;
+  padding-right: 30px;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+ul li {
+  color: #FFF;
+  font-weight: 400;
+  font-family: georgia;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+ul li p.ul-content {
+  color: rgba(204, 204, 204, .4);
+  margin-top: 2px;
+  margin-left: 0px;
+  font-family: georgia;
+}
+
+span.res-title {
+  color: #FFF;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+ul li span.res-title {
+  color: #FFF;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+span.sub-title {
+  font-family: sans-serif;
+}
+
+span.date {
+  color: rgba(204, 204, 204, .4);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding-left: 3px;  
+}
+
+.divider {
+  border-top: rgba(204, 204, 204, .4) 1px solid;
+  margin:5px 0 5px 0;
+  margin: 30px;
+}
+
+li {
+  color: #FFF;
+  list-style-type: square;
+  font-family: sans-serif;
+}
+
+ul {
+  color: white;
+  display: inlne;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "helvetica"; 
+}
