@@ -1,0 +1,160 @@
+header {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1,h2,h3,h4,a,p,.subhead,.rightside {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+  color: #f30000;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+}
+
+#container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+  width: 1080px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.subhead {
+  font-size: 30px;
+  color: #7F7F7F;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+}
+
+header {
+  width: 1080px;
+}
+
+nav {
+  margin-left: -40px;
+  width: 1080px;
+}
+
+nav a {
+  display: block;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16pt;
+  padding: 10px; 
+  margin-right: 2px;
+  width: 150px;
+}
+
+
+.rightside {
+  float: right;
+  width: 300px;
+  height: 600px;
+  margin-top: -1315px;
+  margin-right: 0px;
+}
+
+.articleone,.articletwo{
+  width: 700px;
+  margin-top: 115px;
+}
+
+.articletwo {
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #CCC;
+}
+
+h3 {
+  font-size: 30px;
+  color: #000;
+  margin-top: -15px;
+}
+
+h4, h4 a {
+  float: right;
+  font-size: 16px;
+  color: #f30000;
+  margin-top: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h5 {
+  color: #888888;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16 px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+.dropcap {
+  float:left;
+  color: #CCC;
+  font-size: 90px;
+  line-height: 70px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+img {
+  width: 700px;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+.ad {
+  width: 300px;
+  height: 250px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+}
+
+.line {
+  margin-top: 80px;
+  border-top: 1px #CCC solid;
+}
+
+.pipe {
+  color: #CCC;
+}
+
+.rightside ul li a {
+  text-decoration: none;
+  color: #f30000;
+}
+
+footer nav a {
+  display: inline;
+  font-size: 14px;
+  padding: 2px;
+  color: #f30000;
+  background-color: #FFF;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+
