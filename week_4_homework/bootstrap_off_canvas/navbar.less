@@ -1,0 +1,32 @@
+.navbar {
+    // use this class instead of .collapse .navbar-collapse for the div surrounding the navbar items that should not collapse
+    .no-collapse {
+        @media (max-width: @grid-float-breakpoint-max) {
+            .navbar-nav {
+                margin-top: -@navbar-height;
+                margin-bottom: 0;
+                &.navbar-right {
+                    float: right;
+                    // summed up width and padding of .navbar-toggle elements
+                    padding-right: 2*@navbar-padding-horizontal + 19px + 22px;
+                }
+                & .open {
+                    .dropdown-menu {
+                        .dropdown-menu();
+                        display: block;
+                        margin-top: 0;
+                        .border-top-radius(0);
+                    }
+                }
+            }
+            li {
+                display: inline-block;
+                float: left;
+                > a {
+                    padding-top:    @navbar-padding-vertical;
+                    padding-bottom: @navbar-padding-vertical;
+                }
+            }
+        }
+    }
+}
