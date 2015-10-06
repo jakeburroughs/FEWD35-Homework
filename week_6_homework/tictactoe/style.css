@@ -1,0 +1,40 @@
+.main-page {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+.gameboard {
+  margin-left:auto;
+  margin-right:auto;
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 620px) {
+  .gameboard {
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+td {
+  width: 33.3333%;
+  height: 33.3333%;
+  border:#EEE 3px solid;
+  text-align:center;
+  font-size: 50pt;
+  transition: 0.5s ease-in-out;
+}
+
+td:hover {
+  background-color:#EEE;
+  transition:all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.glyphicon-play {
+  font-size: 0.75em;
+  color: #b5b5b5;
+}
