@@ -1,0 +1,98 @@
+<html>
+<head>
+  <title>Form Excercise</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+<form>
+<div class="container">
+    <h1>My form</h1>
+    <div class="row form-bg">
+        <h2>First Name</h2>
+        <input type="text" name="firstname" required />
+        <h2>Last Name</h2>
+        <input type="text" name="lastname" required />
+        <h2>Email Address</h2>
+        <input type="email" name="emailaddress" data-parsley-trigger="change" required />
+        <h2>Address</h2>
+        <input type="text" name="address" required />
+        <div class="row">
+            <div class="col-md-6"><h2>Address Line 2</h2>
+                <input type="text" name="addressline2" />
+            </div>
+
+            <div class="col-md-6"><h2>City</h2>
+                <input type="text" name="city" required/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>State</h2>
+                <select class="form-control" name="state" required >
+                    <option>Choose State</option>
+                    <option>Alabama</option>
+                    <option>Alaska</option>
+                    <option>Arizona</option>
+                    <option>Arkansas</option>
+                    <option>California</option>
+                    <option>Colorado</option>
+                    <option>Connecticut</option>
+                    <option>etc...</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <h2>Country</h2>
+                <select class="form-control" name="country" required>
+                    <option>Choose Country</option>
+                    <option>United States</option>
+                    <option>Algeria</option>
+                    <option>Andorra</option>
+                    <option>Angola</option>
+                    <option>Argentina</option>
+                    <option>Armenia</option>
+                    <option>Aruba</option>
+                    <option>etc...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 txt-center">
+            <button type="submit" id="submit" class="btn btn-primary">Submit Form</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</form>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.1.2/parsley.min.js"></script>
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

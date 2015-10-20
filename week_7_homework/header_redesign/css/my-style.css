@@ -1,0 +1,38 @@
+.my-color {
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  height: 130px;
+}
+
+.testtest {
+  display: inline;
+  margin-right: 30px;
+  color: #FFF;
+}
+
+.my-input {
+  width: 300px !important;
+  margin-right: 30px;
+}
+
+.lighter-grey {
+  background-color: #999;
+  height: 100px;
+  border-radius: 12px;
+  margin-top: 90px;
+}
+
+.center-please {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-form {
+  margin-top: 40px;
+}
+
+.my-dropdown {
+  margin-top: 20px;
+}
