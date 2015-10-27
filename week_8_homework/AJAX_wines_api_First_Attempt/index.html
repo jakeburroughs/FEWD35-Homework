@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>AJAX Wines API</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+ 
+<form id="wine-form" method="POST" action="http://daretodiscover.herokuapp.com/wines">
+<div class="container">
+    <h1>My form</h1>
+    <div class="row form-bg">
+        <h2>Name</h2>
+        <input type="text" name="name"/>
+        <h2>Year</h2>
+        <input type="text" name="year"/>
+        <h2>Grapes</h2>
+        <input type="text" name="grapes"/>
+        <h2>Country</h2>
+        <input type="text" name="country"/>
+        <h2>Region</h2>
+        <input type="text" name="region"/>
+        <h2>Price</h2>
+        <input type="text" name="price"/>
+        <h2>Description</h2>
+        <input id="d1" type="text" name="description"/>
+        <div class="row">
+            <div class="col-sm-12 txt-center">
+            <button type="submit" id="post" class="btn btn-primary">Post</button>
+            <button type="click" id="log" class="btn btn-warning">Console Log</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</form>
+
+
+
+
+
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+ 
+<script src="app.js"></script>
+
+</body>
+</html>

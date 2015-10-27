@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>AJAX Arun Solution</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+    <form id="wine-form" method="POST" action="http://daretodiscover.herokuapp.com/wines">
+        <div class="container">
+            <h1>Wine Form</h1>
+            <div class="row form-bg">
+                <h2>Name</h2>
+                <input type="text" name="name" class="form-control" />
+                <h2>Year</h2>
+                <input type="text" name="year" class="form-control" />
+                <h2>Price</h2>
+                <input type="text" name="price" class="form-control"/>
+                <h2>Grapes</h2>
+                <input type="text" name="grapes" class="form-control"/>
+                <h2>Country</h2>
+                <input type="text" name="country" class="form-control"/>
+                <h2>Region</h2>
+                <input type="text" name="region" class="form-control"/>
+                <h2>Description</h2>
+                <textarea type="text" name="description" class="form-control"></textarea>
+                <h2>Picture</h2>
+                <input type="text" name="picture" class="form-control"/>
+
+                <div class="row">
+                    <div class="col-sm-12 txt-center">
+                    <button id="log" type="submit" class="btn btn-primary" >Submit New Wine</button>
+                    <button id="get-wine-data" type="button" class="btn btn-warning" >Get Wine Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

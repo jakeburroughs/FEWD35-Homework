@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 40pt;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.form-bg {
+  max-width: 800px;
+  background-color: #EBEBEB;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px; 
+  border: #DBDBDB 1px solid;
+  padding: 0 20px 30px 20px;
+  margin-bottom: 50px;
+}
+
+input, textarea {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 0px 0;
+  font-size:20px;
+  padding:5px;
+  width: 100%;
+  box-sizing:border-box;
+  border: #DBDBDB 1px solid;
+}  
+
+.txt-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
